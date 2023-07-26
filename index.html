@@ -66,38 +66,88 @@
         </div>
       </div>
       <div class="navbar-end pr-4">
-        <div class="form-control">
-          <input type="text" placeholder="Search" class="input rounded-full input-bordered w-24 md:w-auto" />
+        <div class="">
+          
+          <input type="text" placeholder="Search" class="input rounded-full input-bordered w-24 md:w-auto"  /> <i class="fa-solid fa-magnifying-glass"></i>
         </div>
+        
       </div>
     </nav>
+    
     <!-- banner section  -->
-    <section class="container mx-auto">
-      <div class="hero min-h-[460px]"
-        style="background-image: url(images/banner1.png);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-20 right-20 top-1/2">
-          <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
-          <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
-        </div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-xl">
-            <h1 class="mb-5 text-6xl font-bold text-white">Exotic tastes at your doorstep</h1>
-            <p class="mb-5">We supply highly quality organic products</p>
-            <button class="btn btn-error bg-[#F85559] border-none text-white">Shop Now</button>
+      <div class="carousel w-full lg:h[600px]">
+        <!-- slide 1 -->
+        <div id="slide1" class="hero min-h-[460px] carousel-item relative w-full bg-black">
+          <div class="hero-content text-center text-neutral-content z-20">
+            <div class="max-w-xl">
+              <h1 class="mb-5 text-6xl font-bold text-white">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-error bg-[#F85559] border-none text-white">Shop Now</button>
+            </div>
           </div>
-        </div>
+          <img src="./images/banner1.png" class="w-full opacity-40"/>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div> 
+        <!-- slide 2 -->
+        <div id="slide2" class="hero min-h-[460px] carousel-item relative w-full bg-black">
+          <div class="hero-content text-center text-neutral-content z-20">
+            <div class="max-w-xl">
+              <h1 class="mb-5 text-6xl font-bold text-white">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-error bg-[#F85559] border-none text-white">Shop Now</button>
+            </div>
+          </div>
+          <img src="./images/banner2.png" class="w-full opacity-40"/>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div> 
+        <!-- slide 3 -->
+        <div id="slide3" class="hero min-h-[460px] carousel-item relative w-full bg-black">
+          <div class="hero-content text-center text-neutral-content z-20">
+            <div class="max-w-xl">
+              <h1 class="mb-5 text-6xl font-bold text-white">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-error bg-[#F85559] border-none text-white">Shop Now</button>
+            </div>
+          </div>
+          <img src="./images/banner3.png" class="w-full opacity-40"/>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div> 
+        <!-- slide 4 -->
+        <div id="slide4" class="hero min-h-[460px] carousel-item relative w-full bg-black">
+          <div class="hero-content text-center text-neutral-content z-20">
+            <div class="max-w-xl">
+              <h1 class="mb-5 text-6xl font-bold text-white">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-error bg-[#F85559] border-none text-white">Shop Now</button>
+            </div>
+          </div>
+          <img src="./images/banner4.png" class="w-full opacity-40"/>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+          </div>
+        </div> 
+        
       </div>
     </section>
   </header>
   
   <!-- main section  -->
   <main>
-    <section class="container mx-auto my-10">
+    <section ction class="container mx-auto my-10">
       
       <!-- Deal of the day section -->
       <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-end">
-        <div class="lg:w-2/3 text-left">
+        <div class="lg:w-2/3 flex-col text-left">
           <h1 class="text-5xl font-extrabold">Deal of the day</h1>
           <p class="py-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
@@ -130,13 +180,13 @@
       <!-- all card  -->
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-5">
-        <!-- card one -->
+        <!-- card 1 -->
         <div class="card px-12 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center space-y-3">
-            <h2 class="card-title">12.90$ - 18.85$</h2>
+            <h2 class="card-title border-b-2 pb-5 border-gray-300">12.90$ - 18.85$</h2>
             <p>Apples</p>
             <div class="rating">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -148,14 +198,33 @@
             <h6 class="text-xl font-bold text-[#F85559]">Details</h6>
           </div>
         </div>
-        <!-- card one -->
+        <!-- card 2 -->
         <div class="card px-12 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
-            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center space-y-3">
-            <h2 class="card-title">12.90$ - 18.85$</h2>
-            <p>Apples</p>
+            <h2 class="card-title border-b-2 pb-5 border-gray-300">12.90$ - 18.85$</h2>
+            
+            <p>Orange</p>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <h6 class="text-xl font-bold text-[#F85559]">Details</h6>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="card px-12 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center space-y-3">
+            <h2 class="card-title border-b-2 pb-5 border-gray-300">12.90$ - 18.85$</h2>
+            <p>Red Dragon</p>
             <div class="rating">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -166,32 +235,14 @@
             <h6 class="text-xl font-bold text-[#F85559]">Details</h6>
           </div>
         </div>
-        <!-- card one -->
+        <!-- card 4 -->
         <div class="card px-12 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
-            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+            <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center space-y-3">
-            <h2 class="card-title">12.90$ - 18.85$</h2>
-            <p>Apples</p>
-            <div class="rating">
-              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-            </div>
-            <h6 class="text-xl font-bold text-[#F85559]">Details</h6>
-          </div>
-        </div>
-        <!-- card one -->
-        <div class="card px-12 bg-base-100 shadow-xl">
-          <figure class="px-10 pt-10">
-            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
-          </figure>
-          <div class="card-body items-center text-center space-y-3">
-            <h2 class="card-title">12.90$ - 18.85$</h2>
-            <p>Apples</p>
+            <h2 class="card-title border-b-2 pb-5 border-gray-300">12.90$ - 18.85$</h2>
+            <p>Banana</p>
             <div class="rating">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
